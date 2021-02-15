@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: acgd-webdev-workshops/realcottages
+  repo: edgarbrignoni/jekyll-netlify-cms
 
 media_folder: "images/uploads"
 
