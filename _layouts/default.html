@@ -24,5 +24,16 @@
   {% include patterns/footer/footer.html %}
   {% include metadata/real-estate-agent.html %}
 
+  <script> 
+    document.addEventListener('DOMContentLoaded', function() {
+      const trustpilot_invitation = {
+           recipientEmail: '303030@dxperts.com',
+           recipientName: 'Edgar Smith',
+           referenceId: 'Order_123',
+           source: 'InvitationScript',
+        };
+        tp('createInvitation', trustpilot_invitation);
+    });
+  </script>
 </body>
 </html>
